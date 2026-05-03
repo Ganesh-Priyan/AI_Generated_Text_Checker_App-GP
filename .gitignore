@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# Python bytecode (the __pycache__ folder in your screenshot)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Model Files (Crucial for your app)
+# Since you have 'roberta-base-op...', ignore the large weights
+roberta-base-openai-detector/pytorch_model.bin
+roberta-base-openai-detector/tf_model.h5
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
